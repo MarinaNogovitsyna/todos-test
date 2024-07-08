@@ -1,0 +1,18 @@
+.container {
+  padding: 15px 8px;
+  border-bottom: 1px solid #ebeae8;
+  display: flex;
+  gap: 25px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.container svg:first-child {
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+  text-decoration-thickness: from-font;
+  color: #b3b3b3;
+}

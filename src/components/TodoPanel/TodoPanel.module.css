@@ -1,0 +1,24 @@
+.container {
+  padding: 15px;
+  border-bottom: 2px solid #ebeae8;
+}
+
+.label {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  align-self: center;
+}
+
+.input {
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+
+.input::placeholder {
+  font-style: italic;
+  color: #d2d4d2;
+}

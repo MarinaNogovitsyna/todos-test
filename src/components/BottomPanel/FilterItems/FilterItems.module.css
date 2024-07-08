@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  gap: 18px;
+}
+
+.filter {
+  padding: 2px 7px;
+  cursor: pointer;
+}
+
+.active_filter {
+  border: 1px solid #edbebf;
+  border-radius: 4px;
+}
+
+.filter:hover {
+  background-color: #e3e3e3;
+  border-radius: 4px;
+}
+
+.active_filter:hover {
+  background-color: white;
+  cursor: auto;
+}

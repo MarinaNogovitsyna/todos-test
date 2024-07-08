@@ -1,0 +1,7 @@
+.clear {
+  cursor: pointer;
+}
+
+.clear:hover {
+  color: black;
+}
